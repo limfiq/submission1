@@ -13,6 +13,8 @@ class RegisterPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Register'),
+        backgroundColor: Colors.amber[100],
+        elevation: 5.0,
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
